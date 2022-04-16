@@ -281,7 +281,7 @@ public class Login extends javax.swing.JFrame {
         String username  = jTextUsername.getText().trim();
         String password = jTextPassword.getText().trim();
         
-        timerDown.start();
+        timerDown.start();     
         
         if(username.equals("user@gmail.com") && password.equals("user123"))
         {
